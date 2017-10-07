@@ -24,7 +24,7 @@
     const minLength = length => value => value.length >= length;
     const maxLength = length => value => value.length <= length;
 
-    const impForm = new jslidate ({
+    const impForm = new JSLidate ({
         inputs: [{
             selector: '.input_1' ,
             rules   : [minLength (1) , maxLength (5)] ,

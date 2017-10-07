@@ -5,7 +5,7 @@ JSLidate is libraray for JS validation
 Code below creates Form object
 
 ```javascript
-const impForm = new jslidate ({
+const impForm = new JSLidate ({
     inputs: [{
         selector: '.input_1' ,
         rules   : [minLength (1) , maxLength (5)] ,
